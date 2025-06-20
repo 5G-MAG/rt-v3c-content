@@ -1,0 +1,72 @@
+{
+  "Library": "data/library.json",
+  "Networking": {
+    "Servers": [
+      {
+        "Name": "myserver",
+        "IP": "127.0.0.1",
+        "Port": 8080,
+        "MaxConnections": 10
+      }
+    ],
+    "SegmentsBufferCapacity": 4
+  },
+  "Decoder": {
+    "OpenGLInteroperability": true,
+    "ConfigList": [
+      {
+        "Name": "hevc",
+        "Thread": 1,
+        "HardwareAcceleration": true,
+        "AndroidFormat": "rgb"
+      },
+      {
+        "Name": "vvc",
+        "Thread": 1,
+        "HardwareAcceleration": false,
+        "AndroidFormat": "rgb"
+      },
+      {
+        "Name": "miv",
+        "Thread": 1,
+        "HardwareAcceleration": true,
+        "AndroidFormat": "rgb"
+      },
+      {
+        "Name": "vpcc",
+        "Thread": 1,
+        "HardwareAcceleration": true,
+        "AndroidFormat": "yuv"
+      }
+    ],
+	"AVCodec": "iloj_avcodec_hwdec"
+  },
+  "Scheduler": {
+    "Latency": 15,
+    "Jitter": 15,
+    "ForceDecodersSynchro": true,
+    "FrameSkip": true
+  },
+  "RendererList": [
+    {
+      "Module": "V3CImmersiveSynthesizerVPCC",
+      "Quality": "none",
+      "RenderShadow": true
+    },
+    {
+      "Module": "V3CImmersiveSynthesizerMES",
+      "Quality": "none",
+	  "ColorConversionNorm": 1.0
+    },
+    {
+      "Module": "V3CImmersiveSynthesizerHaptic",
+      "Quality": "none"
+    },
+    {
+      "Module": "V3CImmersiveSynthesizerMPI",
+      "Quality": "none",
+      "MinAlpha": 0,
+      "InpaintingLevel": 16
+    }
+  ]
+}

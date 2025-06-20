@@ -1,0 +1,153 @@
+{
+  "Playlist": [
+    {
+      "BaseDirectory": "S41C2RAR05_footprod_1GOP_R24",
+      "Mode": "local",
+      "Name": "S41C2RAR05_footprod_1GOP_R24",
+      "StreamList": [
+        {
+          "Duration": [
+            1.066666722
+          ],
+          "NbFrame": [
+            32
+          ],
+          "NbSegment": 1,
+          "Path": "S41C2RAR05_footprod_%04d.bin",
+          "ServerName": "",
+          "Type": "vpcc",
+          "Url": ""
+        },
+		{
+			"Duration": [
+				1.066666722
+			],
+			"NbFrame": [
+				1
+			],
+			"NbSegment": 1,
+			"Path": "S41C2RAR05_footprod.hjif",
+			"SenderName": "",
+			"ServerName": "",
+			"Type": "haptic",
+			"Url": ""
+		}
+      ]
+    },
+    {
+      "BaseDirectory": "DanceB_4GOP_V19",
+      "Mode": "local",
+      "Name": "DanceB_4GOP_V19",
+      "StreamList": [
+        {
+          "Duration": [
+            2.133333333333333,
+            2.133333333333333,
+            2.133333333333333,
+            2.133333333333333
+          ],
+          "NbFrame": [
+            32,
+            32,
+            32,
+            32
+          ],
+          "NbSegment": 4,
+          "Path": "danceB-%04d.bit",
+          "ServerName": "",
+          "Type": "miv",
+          "Url": ""
+        }
+      ]
+    },
+    {
+      "BaseDirectory": "Mannequin_QP32-32_5GOP_V19",
+      "Mode": "local",
+      "Name": "Mannequin_QP32-32_5GOP_V19",
+      "StreamList": [
+        {
+          "Duration": [
+            1.279999971,
+            1.279999971,
+            1.279999971,
+            1.279999971,
+            1.279999971			
+          ],
+          "NbFrame": [
+            32,
+            32,
+            32,
+            32,
+            32
+          ],
+          "NbSegment": 5,
+          "Path": "TMIV_Mannequin_t%04d.bit",
+          "ServerName": "",
+          "Type": "miv",
+          "Url": ""
+        }
+      ]
+    },
+    {
+      "BaseDirectory": "S41C2RAR05_footprod_1GOP_R24",
+      "Mode": "dash",
+      "Name": "S41C2RAR05_footprod_1GOP_R24 Remote",
+      "StreamList": [
+        {
+          "Duration": [
+
+          ],
+          "NbFrame": [
+
+          ],
+          "NbSegment": 4,
+          "Path": "S41C2RAR05_footprod_%04d.bin",
+          "ServerName": "myserver",
+          "Type": "vpcc",
+          "Url": "V3Ctest/S41C2RAR05_footprod_1GOP_R24/stream.mpd"
+        }
+      ]
+    },
+	{
+	  "BaseDirectory": "DanceB_4GOP_V19",
+	  "Mode": "dash",
+	  "Name": "DanceB_4GOP_V19 Remote",
+	  "StreamList":
+	  [
+	  	{
+	  	  "Duration": [
+
+	  	  ],
+	  	  "NbFrame":  [
+
+	  	  ],
+	  	  "NbSegment": 4,
+	  	  "Path": "danceB-%04d.bit",
+	  	  "ServerName": "myserver",
+	  	  "Type": "miv",
+	  	  "Url": "V3Ctest/DanceB_4GOP_V19/stream.mpd"
+	  	}
+	  ]
+	},			
+    {
+      "BaseDirectory": "Mannequin_QP32-32_5GOP_V19",
+      "Mode": "dash",
+      "Name": "Mannequin_QP32-32_5GOP_V19 Remote",
+      "StreamList": [
+        {
+          "Duration": [
+
+          ],
+          "NbFrame": [
+
+          ],
+          "NbSegment": 5,
+          "Path": "TMIV_Mannequin_t%04d.bit",
+          "ServerName": "myserver",
+          "Type": "miv",
+          "Url": "V3Ctest/Mannequin_QP32-32_5GOP_V19/stream.mpd"
+        }
+      ]
+    }
+  ]
+}
