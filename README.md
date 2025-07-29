@@ -4,13 +4,15 @@
   <img src="https://img.shields.io/badge/License-Multiple-blue" alt="License">
 </p>
 
-This folder contains the files to configure and test the [V3CImmersivePlatform - Unity Player](https://github.com/5G-MAG/rt-v3c-unity-player) application.
+This repository contains files to configure and test the [V3CImmersivePlatform - Unity Player](https://github.com/5G-MAG/rt-v3c-unity-player) application.
 
 It is organized with:
 - `on-device-data` : folder with files to configure the test device running the application
 - `on-server-data` : folder with files to install on the remote HTTP server
 
 Contents are provided with specific licenses.
+
+This repository also contains tools/scripts to generate V3C encoded bitstreams and DASH segmented V3C bitstreams, in 'tools' folder. 
 
 # Description of `on-device-data` folder
 

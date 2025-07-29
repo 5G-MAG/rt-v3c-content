@@ -1,0 +1,12 @@
+# =============== #
+# Base            #
+# =============== #
+test/output_bin
+test/output_chunk
+createVpccChuncks/build
+createVpccChuncks/bin
+
+# ========== #
+# Notepad++  #
+# ========== #
+*.bak
