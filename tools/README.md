@@ -4,7 +4,7 @@ This folder contains tools/scripts to generate V3C V-PCC encoded bitstreams (in 
 
 The figure below illustrates their usage.
 
-![V3CImmersivePlatform tools](docs/images/v3c-immersive-content-tools.png)
+![V3CImmersivePlatform tools](../docs/images/v3c-immersive-content-tools.png)
 
 A related Unity project (V3C Unity Player) allows MIV and V-PCC data view with a simple user interface and Windows/Android support.
 It can be found here: [Unity Player application](https://github.com/5G-MAG/rt-v3c-unity-player).
