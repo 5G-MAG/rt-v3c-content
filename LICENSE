@@ -1,0 +1,20 @@
+Please note that this project contains code and example content that runs under different licences.
+
+1. Content
+Example content can be found under 'on-device-data' and 'on-server-data' folders.
+Specific licences apply to these example content:
+- DanceB, see LICENSE-DanceB.md in rt-v3c-content\on-device-data\data\DanceB_4GOP_V19
+- Mannequin, see LICENSE-Mannequin.txt in rt-v3c-content\on-device-data\data\Mannequin_QP32-32_5GOP_V19
+- footprod, see LICENSE-footprod.txt in rt-v3c-content\on-device-data\data\S41C2RAR05_footprod_1GOP_R24
+
+2. V-PCC Generation tools
+The code managing V-PCC encoding and chunks creation in scope of V3C Immersive Platform is contributed under the 5G-MAG Public License (v1.0).
+The related license can be found in the corresponding LICENSE-5G-MAG-PL-1.0 license file in folder : rt-v3c-content\tools\vpcc-generation-tools
+This code use dependency:
+- tmc2, version 25.0, https://github.com/MPEGGroup/mpeg-pcc-tmc2.git
+
+3. V3C DASH Packager tool
+The code managing V3C DASH Packager is contributed under the 5G-MAG Public License (v1.0).
+This code is distributed with the software (binaries) as listed below: 
+- v3cpackager.exe, Bento4 Software Copyright © Axiomatic Systems LLC , 2002-2014 . All rights reserved.
+- libcurl, v8.6.0, https://curl.se/docs/copyright.html

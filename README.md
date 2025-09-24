@@ -5,14 +5,15 @@
 </p>
 
 This repository contains files to configure and test the [V3CImmersivePlatform - Unity Player](https://github.com/5G-MAG/rt-v3c-unity-player) application.
+This repository also contains tools/scripts to generate V3C encoded bitstreams and DASH segmented V3C bitstreams.
 
 It is organized with:
 - `on-device-data` : folder with files to configure the test device running the application
 - `on-server-data` : folder with files to install on the remote HTTP server
+- `tools/vpcc-generation-tools` : folder with tools and scripts to generate encoded V3C V-PCC biststream
+- `tools/v3c-dash-packager` : folder with tools and scripts to generate V3C DASH segments from V3C bitstream 
 
-Contents are provided with specific licenses.
-
-This repository also contains tools/scripts to generate V3C encoded bitstreams and DASH segmented V3C bitstreams, in 'tools' folder. 
+Contents and tools are provided with specific licenses, see LICENSE file in this folder.
 
 # Description of `on-device-data` folder
 

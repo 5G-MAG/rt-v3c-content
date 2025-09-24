@@ -13,6 +13,6 @@ This project is provided under 5G-MAG's Public License. For the full license ter
 
 Distributed with the software (binaries) as listed below: 
 
-- Bento4 Software Copyright © Axiomatic Systems LLC , 2002-2014 . All rights reserved.
-- libcurl, v8.6.0, https://curl.se/docs/copyright.html
+- v3cpackager.exe, Bento4 Software Copyright © Axiomatic Systems LLC , 2002-2014 . All rights reserved.
+- libcurl.dll, v8.6.0, https://curl.se/docs/copyright.html
 
