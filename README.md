@@ -125,8 +125,9 @@ use these fields:
 - `Path`: the file name template of the local chunks.
 - `ServerName`: the name of the DASH server, whose settings (the hostname, for example) are in
   `config.json`.
-- `Type`: the content type, VPCC, MIV or 2d. The example file writes them in lower case (`vpcc`,
-  `miv`) and also has a `haptic` stream.
+- `Type`: the stream type. The decoder plugin recognises `vpcc`, `miv`, `haptic`, `audio`, `hevc`
+  and `vvc`, compared exactly, so in lower case; it reads any other value as no type. The example
+  file uses `vpcc`, `miv` and `haptic`.
 - `Url`: the URL of the DASH `.mpd` file, for example "XXX/S41C2RAR05_footprod_1GOP_R24/stream.mpd",
   where XXX depends on how the server is configured (for example "V3Ctest").
 
