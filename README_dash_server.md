@@ -43,7 +43,7 @@ Create a new folder on the server's public folder and copy the V-PCC and MIV con
 **Example:**
 
 - Create a new folder `V3Ctest` in directory 'C:/Apache24/mediaContent'
-- Then copy the V3C test contents (unzip V-PCC and MIV content) in this `V3Ctest` folder.
+- Then unzip each package into its own folder named after the zip, for example `V3Ctest/DanceB_4GOP_V19/`. The zip files have no top-level folder, and `on-device-data/data/library.json` expects `V3Ctest/<package name>/stream.mpd`.
 
 ## Running Apache  
 
@@ -86,7 +86,7 @@ Create a new folder on the server's public folder and copy the V-PCC and MIV con
 **Example:**
 
 - Create a new folder `V3Ctest` in directory 'C:/rt-common-shared/simple-express-server/public'
-- Then copy the V3C test contents (unzip V-PCC and MIV content) in this `V3Ctest` folder.
+- Then unzip each package into its own folder named after the zip, for example `V3Ctest/DanceB_4GOP_V19/`. The zip files have no top-level folder, and `on-device-data/data/library.json` expects `V3Ctest/<package name>/stream.mpd`.
 
 # Start the server  
 

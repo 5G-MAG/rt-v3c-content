@@ -86,6 +86,8 @@ If needed, a [readme](https://github.com/5G-MAG/rt-v3c-decoder-plugin/Tests/READ
 
 It contains zip files with V3C content (V-PCC and MIV). These files can be unzip on the DASH server for remote tests.
 
+The zip files have no top-level folder: unzip each one into a folder named after the zip (for example `V3Ctest/DanceB_4GOP_V19/stream.mpd`), because `library.json` refers to `V3Ctest/<package name>/stream.mpd`. Unzipping all three into one folder overwrites `stream.mpd` and `init.mp4`.
+
 These content are provided with specific licenses.
 
 - Mannequin_QP32-32_5GOP_V19.zip : test content encoded with V3C MIV MPI profile (ownership InterDigital)
