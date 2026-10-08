@@ -66,6 +66,8 @@ In the **test example** configuration provided, 6 blocks are defined:
 **type** specifies the video type, it can be VPCC, MIV or 2d.  
 **url** specifies the URL of the DASH .mpd file, e.g. "XXX/S41C2RAR05_footprod_1GOP_R24/stream.mpd", where XXX depends on how the server has been configured (e.g. "V3Ctest").  
 
+**Title**, **Description** and **Environment** are optional fields of each playlist entry, ignored by readers that do not know them. **Title** is a short display name, **Description** is one line saying what the sequence shows, and **Environment** names a backdrop the player may use (the Unity player knows `stadium`).  
+
 # Description of `on-server-data` folder
 
 It contains the data that shall be copied on the DASH server.  

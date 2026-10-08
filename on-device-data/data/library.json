@@ -4,6 +4,9 @@
       "BaseDirectory": "S41C2RAR05_footprod_1GOP_R24",
       "Mode": "local",
       "Name": "S41C2RAR05_footprod_1GOP_R24",
+      "Title": "Footprod",
+      "Description": "Footballer juggling a ball",
+      "Environment": "stadium",
       "StreamList": [
         {
           "Duration": [
@@ -38,6 +41,8 @@
       "BaseDirectory": "DanceB_4GOP_V19",
       "Mode": "local",
       "Name": "DanceB_4GOP_V19",
+      "Title": "DanceB",
+      "Description": "Four dancers against a wall",
       "StreamList": [
         {
           "Duration": [
@@ -64,6 +69,8 @@
       "BaseDirectory": "Mannequin_QP32-32_5GOP_V19",
       "Mode": "local",
       "Name": "Mannequin_QP32-32_5GOP_V19",
+      "Title": "Mannequin",
+      "Description": "A sculptor's studio",
       "StreamList": [
         {
           "Duration": [
@@ -92,6 +99,9 @@
       "BaseDirectory": "S41C2RAR05_footprod_1GOP_R24",
       "Mode": "dash",
       "Name": "S41C2RAR05_footprod_1GOP_R24 Remote",
+      "Title": "Footprod",
+      "Description": "Footballer juggling a ball",
+      "Environment": "stadium",
       "StreamList": [
         {
           "Duration": [
@@ -112,6 +122,8 @@
 	  "BaseDirectory": "DanceB_4GOP_V19",
 	  "Mode": "dash",
 	  "Name": "DanceB_4GOP_V19 Remote",
+	  "Title": "DanceB",
+	  "Description": "Four dancers against a wall",
 	  "StreamList":
 	  [
 	  	{
@@ -133,6 +145,8 @@
       "BaseDirectory": "Mannequin_QP32-32_5GOP_V19",
       "Mode": "dash",
       "Name": "Mannequin_QP32-32_5GOP_V19 Remote",
+      "Title": "Mannequin",
+      "Description": "A sculptor's studio",
       "StreamList": [
         {
           "Duration": [
