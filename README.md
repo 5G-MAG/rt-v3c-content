@@ -15,6 +15,10 @@ It is organized with:
 
 Contents and tools are provided with specific licenses, see LICENSE file in this folder.
 
+## Cloning
+
+The test content is stored with [Git LFS](https://git-lfs.com/). Run `git lfs install` before cloning, or `git lfs pull` in an existing clone. Without it, the `.zip`, `.bit` and `.bin` files are small text pointers instead of the content, and the test sequences do not open.
+
 # Description of `on-device-data` folder
 
 It contains all the data that shall be copied on the test device, e.g. a smartphone, a tablet, to run the application correctly.  
