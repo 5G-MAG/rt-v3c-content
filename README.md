@@ -9,8 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="Status: Under Development"
-    src="https://img.shields.io/badge/Status-Under%20Development-e67e22">
+  <img alt="Status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.5g-mag.com%2Fbadges%2Fstatus%2Frt-v3c-content.json">
   <a href="https://github.com/5G-MAG/rt-v3c-content/releases"><img alt="Version"
     src="https://img.shields.io/github/v/release/5G-MAG/rt-v3c-content?label=Version"></a>
   <a href="LICENSE"><img alt="License: Multiple"
@@ -29,7 +28,7 @@
 
 |  |  |
 |---|---|
-| **Part of** | [MPEG V3C Immersive Platform](https://www.5g-mag.com/reference-tools/v3c/), alongside [rt-v3c-unity-player](https://github.com/5G-MAG/rt-v3c-unity-player), [rt-v3c-decoder-plugin](https://github.com/5G-MAG/rt-v3c-decoder-plugin), [rt-v3c-examples](https://github.com/5G-MAG/rt-v3c-examples) and [rt-media-origin](https://github.com/5G-MAG/rt-media-origin) |
+| **Part of** | [MPEG V3C Immersive Platform](https://www.5g-mag.com/reference-tools/v3c/), alongside [rt-media-origin](https://github.com/5G-MAG/rt-media-origin), [rt-v3c-decoder-plugin](https://github.com/5G-MAG/rt-v3c-decoder-plugin), [rt-v3c-examples](https://github.com/5G-MAG/rt-v3c-examples), [rt-v3c-unity-player](https://github.com/5G-MAG/rt-v3c-unity-player) |
 
 ## Introduction
 
